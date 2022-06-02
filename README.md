@@ -4,18 +4,18 @@ WIX 3001 Soft Computing Individual Assignment
 # Session Information
 
 -----
-matplotlib          3.5.2
-numpy               1.19.5
-session_info        1.0.0
-sklearn             1.1.1
-tensorflow          2.5.0
+matplotlib          3.5.2<br />
+numpy               1.19.5<br />
+session_info        1.0.0<br />
+sklearn             1.1.1<br />
+tensorflow          2.5.0<br />
 
 -----
 
-IPython             8.4.0
-jupyter_client      7.3.1
-jupyter_core        4.10.0
-notebook            6.4.11
+IPython             8.4.0<br />
+jupyter_client      7.3.1<br />
+jupyter_core        4.10.0<br />
+notebook            6.4.11<br />
 
 -----
 
