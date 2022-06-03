@@ -46,10 +46,10 @@ macOS-12.0.1-arm64-arm-64bit
 Credits to Maskedface-Net for the no mask and masked dataset to train the model: https://github.com/cabani/MaskedFace-Net
 
 # How-To
-1. Run the "face mask detector trainer/trainer.py" to train the model with the loaded dataset.
-2.1 Run the detect_mask_video.py to start the face mask recognition through your webcam.
-   If you are not wearing any mask for more than 3 seconds, the program will take a snapshot.
-2.2 Run the detect_mask_photo to detect any face mask worn in a picture.
-3. Input any face data with the person's name as the image's name in the face_ID folder.
-4. Run the identifier.py to detect the person not wearing a mask in the snapshot folder.
-5. Check the report.csv .
+1. Run the "face mask detector trainer/trainer.py" to train the model with the loaded dataset. <br />
+2. Run the detect_mask_video.py to start the face mask recognition through your webcam. <br />
+   If you are not wearing any mask for more than 3 seconds, the program will take a snapshot. <br />
+3. Run the detect_mask_photo to detect any face mask worn in a picture. <br />
+3. Input any face data with the person's name as the image's name in the face_ID folder. <br />
+4. Run the identifier.py to detect the person not wearing a mask in the snapshot folder. <br />
+5. Check the report.csv . <br />
