@@ -1,9 +1,7 @@
 # face-mask-detector
-WIX 3001 Soft Computing Individual Assignment
+Real-time face mask detection with facial recognition. The program detects whether if someone is wearing a mask or not with the video stream. If a person is found to be not wearing any face mask, a snapshot of that person will be taken, and facial recognition will be done on the snapshot to identify the identity of the person. The information will then be be added into a spreadsheert report. The authorities may then use the information collected in the spreadsheet to send out warnings to people who are caught not wearing any masks.
 
 # Session Information (Training the model)
-
------
 
 matplotlib          3.5.2<br />
 numpy               1.19.5<br />
@@ -25,11 +23,9 @@ macOS-12.0.1-arm64-arm-64bit
 
 -----
 
-Session information updated at 2022-06-03 01:00
+### Session information updated at 2022-06-03 01:00
 
 # Session Information (Running the detector)
-
------
 
 cv2                 4.5.5<br />
 imutils             0.5.4<br />
@@ -44,6 +40,16 @@ macOS-12.0.1-arm64-arm-64bit
 
 -----
 
-Session information updated at 2022-06-03 01:14
+### Session information updated at 2022-06-03 01:14
 
+# Datasets
+Credits to Maskedface-Net for the no mask and masked dataset to train the model: https://github.com/cabani/MaskedFace-Net
 
+# How-To
+1. Run the "face mask detector trainer/trainer.py" to train the model with the loaded dataset.
+2.1 Run the detect_mask_video.py to start the face mask recognition through your webcam.
+   If you are not wearing any mask for more than 3 seconds, the program will take a snapshot.
+2.2 Run the detect_mask_photo to detect any face mask worn in a picture.
+3. Input any face data with the person's name as the image's name in the face_ID folder.
+4. Run the identifier.py to detect the person not wearing a mask in the snapshot folder.
+5. Check the report.csv .
